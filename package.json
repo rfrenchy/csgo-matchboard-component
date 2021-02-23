@@ -1,6 +1,6 @@
 {
-  "name": "csgo-matchboard-component",
-  "version": "0.0.1",
+  "name": "@rfrenchy/csgo-matchboard-component",
+  "version": "0.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,9 +12,17 @@
     "build-storybook": "build-storybook",
     "deploy-storybook": "storybook-to-aws-s3 --bucket-path arn:aws:s3:eu-west-2:804054066422:accesspoint/csgo-matchboard-component-storybook-access-point"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "csgo"
+  ],
+  "author": "ryan french",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "url": "git@github.com:rfrenchy/csgo-matchboard-component.git"
+  },
   "peerDependencies": {
     "prop-types": "^15",
     "react": "^16",
