@@ -1,5 +1,5 @@
 import React from "react";
-import Scoreboard from "./index";
+import Matchboard from "./index";
 
 import {
   OneMapMatch,
@@ -9,10 +9,10 @@ import {
   FiveMapMatch,
 } from "./mockData";
 
-const Template = (args) => <Scoreboard {...args} />;
+const Template = (args) => <Matchboard {...args} />;
 
 export default {
-  component: Scoreboard,
+  component: Matchboard,
   title: "ScoreBoard",
 };
 

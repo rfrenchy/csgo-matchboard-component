@@ -117,3 +117,7 @@ dist
 
 # Neutrino build directory
 build
+
+# Storybook
+
+storybook-static

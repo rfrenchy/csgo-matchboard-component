@@ -1,4 +1,4 @@
-# CSGO-Matchboard-Component
+# csgo-matchboard-component
 
 A React component to display CSGO Match information
 

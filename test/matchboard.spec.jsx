@@ -3,11 +3,11 @@ import "jest-styled-components";
 
 import React from "react";
 import { mount } from "../enzyme";
-import ScoreBoard from "../src/components/Scoreboard";
+import Matchboard from "../src/components/MatchBoard";
 
-describe("<Scoreboard/>", () => {
+describe("<Matchboard/>", () => {
   it("contains 2 team sections", () => {
-    const wrapper = mount(<ScoreBoard />);
+    const wrapper = mount(<Matchboard />);
 
     // wrapper.tohave
   });
