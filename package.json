@@ -17,9 +17,6 @@
   ],
   "author": "ryan french",
   "license": "MIT",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "url": "git@github.com:rfrenchy/csgo-matchboard-component.git"
   },
