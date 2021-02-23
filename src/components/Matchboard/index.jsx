@@ -10,7 +10,6 @@ const MatchBoardContainer = styled.div`
   padding: 10px;
   display: grid;
   grid-gap: 10px;
-  background-color: rgba(158, 158, 158, 0.5);
   border-radius: 3px;
 `;
 
