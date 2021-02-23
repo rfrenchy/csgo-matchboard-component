@@ -1,10 +1,10 @@
 {
   "name": "csgo-matchboard-component",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watchAll",
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
     "lint": "eslint --cache --format codeframe --ext mjs,jsx,js src test",
