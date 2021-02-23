@@ -12,23 +12,25 @@ View on [Storybook](http://csgo-matchboard-component-storybook.s3-website.eu-wes
 
 
 const matchBoardData = {
-  teamOne: { imageSrc: "path/to/team-one-logo.svg" | "" },
-  teamTwo: { imageSrc: "path/to/team-two-logo.svg" | "" },
-  maps: [
-    {
-      name: "Mirage" | "Nuke" | "Overpass" | "" | ...,
-      teamOneScore: number | "",
-      teamTwoScore: number | "",
-      mapPick: TeamIds.TEAM_ONE | TeamIds.TEAM_TWO | "",
-      mapImage: "path/to/map-image.png" | "",
-    },
-    ...
-  ],
+  match: {
+    teamOne: { imageSrc: "path/to/team-one-logo.svg" | "" },
+    teamTwo: { imageSrc: "path/to/team-two-logo.svg" | "" },
+    maps: [
+      {
+        name: "Mirage" | "Nuke" | "Overpass" | "" | ...,
+        teamOneScore: number | "",
+        teamTwoScore: number | "",
+        mapPick: TeamIds.TEAM_ONE | TeamIds.TEAM_TWO | "",
+        mapImage: "path/to/map-image.png" | "",
+      },
+      ...
+    ],
+  }
 };
 
 ...
 
-<Matchboard match={matchBoardData} />
+<Matchboard {...matchBoardData} />
 
 ...
 
