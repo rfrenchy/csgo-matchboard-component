@@ -1,0 +1,56 @@
+{
+  "name": "csgo-matchboard-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "lint": "eslint --cache --format codeframe --ext mjs,jsx,js src test",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "storybook-to-aws-s3 --bucket-path arn:aws:s3:eu-west-2:804054066422:accesspoint/csgo-matchboard-component-storybook-access-point"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "prop-types": "^15",
+    "react": "^16",
+    "react-dom": "^16"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.1",
+    "@neutrinojs/jest": "^9.5.0",
+    "@neutrinojs/react-components": "^9.5.0",
+    "@storybook/addon-actions": "^6.1.19",
+    "@storybook/addon-essentials": "^6.1.19",
+    "@storybook/addon-links": "^6.1.19",
+    "@storybook/react": "^6.1.19",
+    "@storybook/storybook-deployer": "^2.8.7",
+    "@types/enzyme": "^3.10.8",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/jest": "^26.0.20",
+    "@types/styled-components": "^5.1.7",
+    "babel-loader": "^8.2.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "enzyme-to-json": "^3.6.1",
+    "eslint": "^7.20.0",
+    "jest": "^26.6.3",
+    "jest-enzyme": "^7.1.2",
+    "jest-styled-components": "^7.0.3",
+    "neutrino": "^9.5.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react-icons": "^4.2.0",
+    "styled-components": "^5.2.1"
+  }
+}
