@@ -9,11 +9,13 @@ import {
   FiveMapMatch,
 } from "./mockData";
 
-const Template = (args) => <Matchboard {...args} />;
-
 export default {
   component: Matchboard,
-  title: "ScoreBoard",
+  title: "Demo Matchboard",
+};
+
+const Template = (args) => {
+  return <Matchboard {...args} />;
 };
 
 const OneMap = Template.bind({});
@@ -46,4 +48,4 @@ FiveMap.args = {
   match: FiveMapMatch,
 };
 
-export { ThreeMap, FiveMap, OneMap, TwoMap, FourMap };
+export { OneMap, TwoMap, ThreeMap, FourMap, FiveMap };

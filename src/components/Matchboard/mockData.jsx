@@ -76,3 +76,9 @@ export const FiveMapMatch = {
   teamTwo: { imageSrc: FazeLogo },
   maps: [maps[0], maps[1], maps[2], maps[3], maps[4]],
 };
+
+export const EmptyMap = {
+  teamOne: { imageSrc: AstralisLogo },
+  teamTwo: { imageSrc: FazeLogo },
+  maps: [{}],
+};
