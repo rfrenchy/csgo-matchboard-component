@@ -2,7 +2,7 @@
   "name": "@rfrenchy/csgo-matchboard-component",
   "version": "0.2.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest --watchAll",
     "start": "webpack-dev-server --mode development --open",
@@ -14,6 +14,10 @@
   },
   "keywords": [
     "csgo"
+  ],
+  "files": [
+    "dist",
+    "src"
   ],
   "author": "ryan french",
   "license": "MIT",
