@@ -5,11 +5,21 @@ const neutrino = require("neutrino");
 
 const config = neutrino().webpack();
 
+const tsLoader = {
+  test: /\.tsx?$/,
+  loader: "ts-loader",
+};
+
+config.module.rules.unshift(tsLoader);
+
 module.exports = {
   ...config,
   output: {
     path: `${__dirname}/dist`,
     filename: "index.js",
-    libraryTarget: "commonjs2",
+    libraryTarget: "umd",
+  },
+  optimization: {
+    minimize: false,
   },
 };
