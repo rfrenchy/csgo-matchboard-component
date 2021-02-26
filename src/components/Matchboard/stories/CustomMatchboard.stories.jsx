@@ -1,5 +1,5 @@
 import React from "react";
-import Matchboard from "./index";
+import Matchboard from "../index";
 
 import AstralisLogo from "../../assets/teams/astralis.svg";
 import FazeLogo from "../../assets/teams/faze.svg";
@@ -12,7 +12,7 @@ import InfernoImage from "../../assets/maps/inferno.jpg";
 import Dust2 from "../../assets/maps/dust2.jpg";
 import Overpass from "../../assets/maps/overpass.jpg";
 
-import { TeamIds } from "../../model/TeamEnum";
+import { TeamIds } from "../../../model/TeamEnum";
 
 export default {
   component: Matchboard,

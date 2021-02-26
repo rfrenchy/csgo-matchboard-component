@@ -1,5 +1,5 @@
 import React from "react";
-import Matchboard from "./index";
+import Matchboard from "../index";
 
 import {
   OneMapMatch,
@@ -7,7 +7,7 @@ import {
   ThreeMapMatch,
   FourMapMatch,
   FiveMapMatch,
-} from "./mockData";
+} from "../mockData";
 
 export default {
   component: Matchboard,

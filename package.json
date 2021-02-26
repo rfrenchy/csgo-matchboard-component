@@ -1,8 +1,7 @@
 {
   "name": "@rfrenchy/csgo-matchboard-component",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "",
-  "main": "dist/index.js",
   "scripts": {
     "test": "jest --watchAll",
     "start": "webpack-dev-server --mode development --open",
@@ -25,7 +24,6 @@
     "url": "git@github.com:rfrenchy/csgo-matchboard-component.git"
   },
   "peerDependencies": {
-    "prop-types": "^15",
     "react": "^16",
     "react-dom": "^16"
   },
