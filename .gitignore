@@ -121,3 +121,6 @@ build
 # Storybook
 
 storybook-static
+
+# build
+lib*

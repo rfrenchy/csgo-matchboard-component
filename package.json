@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --watchAll",
     "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production && tsc",
+    "build": "webpack --mode production",
     "lint": "eslint --cache --format codeframe --ext mjs,jsx,js src test",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
@@ -17,9 +17,7 @@
   ],
   "types": "index.d.ts",
   "files": [
-    "dist",
-    "src",
-    "index.d.ts"
+    "lib"
   ],
   "author": "ryan french",
   "license": "MIT",
@@ -45,6 +43,7 @@
     "@types/jest": "^26.0.20",
     "@types/styled-components": "^5.1.7",
     "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^6.0.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
     "enzyme-to-json": "^3.6.1",
