@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { BsPeopleFill } from "react-icons/bs";
+import { Team as DefaultTeamIcon } from "@styled-icons/remix-fill/Team";
 
 export default class TeamSection extends React.Component {
   render() {
@@ -27,7 +27,7 @@ export default class TeamSection extends React.Component {
     return this.props.imageSrc ? (
       <TeamImage src={this.props.imageSrc} />
     ) : (
-      <DefaultTeamImage /> // change to use this https://styled-icons.js.org/
+      <DefaultTeamIcon color={"#aaa"} />
     );
   }
 }
@@ -52,13 +52,6 @@ const TeamStyling = styled.div`
 
   @media only screen and (max-width: 320px) {
     width: 30px;
-  }
-`;
-
-const DefaultTeamImage = styled.div`
-  ${BsPeopleFill} {
-    height: 65px;
-    width: 35px;
   }
 `;
 
