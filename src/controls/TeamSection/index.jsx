@@ -18,7 +18,9 @@ export default class TeamSection extends React.Component {
         <TeamStyling className="team-section-image">
           {this.ToTeamImage()}
         </TeamStyling>
-        <TeamRounds className="team-section-rounds">{rounds}</TeamRounds>
+        <TeamRounds key={rounds} className="team-section-rounds">
+          {rounds}
+        </TeamRounds>
       </TeamSectionContainer>
     );
   }
@@ -63,10 +65,21 @@ const TeamImage = styled.img`
 `;
 
 const TeamRounds = styled.span`
+  @keyframes roundChange {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 0.8;
+    }
+  }
+
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   opacity: 0.8;
   cursor: default;
   color: #f5f5f5;
+  animation-name: roundChange;
+  animation-duration: 1s;
 `;
 
 const MapPickChip = styled.span`
