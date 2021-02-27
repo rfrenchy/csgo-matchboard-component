@@ -4,7 +4,7 @@
 [![npm latest package](https://img.shields.io/npm/v/@rfrenchy/csgo-matchboard-component/latest.svg)](https://www.npmjs.com/package/@rfrenchy/csgo-matchboard-component)
 [![npm downloads](https://img.shields.io/npm/dm/@rfrenchy/csgo-matchboard-component.svg)](https://www.npmjs.com/package/@rfrenchy/csgo-matchboard-component)
 
-A React component to display CSGO Match information
+A React component displaying CSGO Match information
 
 ![3 Map Component](./src/assets/preview.png)
 

@@ -1,7 +1,7 @@
 {
   "name": "@rfrenchy/csgo-matchboard-component",
-  "version": "0.6.0",
-  "description": "",
+  "version": "0.7.0",
+  "description": "A React component displaying CSGO Match information",
   "scripts": {
     "test": "jest --watchAll",
     "start": "webpack-dev-server --mode development --open",
