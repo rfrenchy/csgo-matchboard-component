@@ -14,7 +14,7 @@
   "keywords": [
     "csgo"
   ],
-  "types": "index.d.ts",
+  "types": "lib/index.d.ts",
   "files": [
     "lib"
   ],
