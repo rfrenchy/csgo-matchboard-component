@@ -81,6 +81,7 @@ const TeamRounds = styled.span`
   color: #f5f5f5;
   animation-name: roundChange;
   animation-duration: 1s;
+  min-height: 18px;
 `;
 
 const MapPickChip = styled.span`
