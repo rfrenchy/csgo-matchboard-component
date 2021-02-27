@@ -23,9 +23,9 @@ describe("<TeamSection/>", () => {
   });
 
   describe("has a rounds property", () => {
-    it("defaults to '-' if empty or invalid", () => {
+    it("defaults to '' if empty or invalid", () => {
       wrapper = mount(<TeamSection />);
-      expect(wrapper.find(".team-section-rounds").at(1).text()).toBe("-");
+      expect(wrapper.find(".team-section-rounds").at(1).text()).toBe("");
     });
 
     it("displays a given round number", () => {

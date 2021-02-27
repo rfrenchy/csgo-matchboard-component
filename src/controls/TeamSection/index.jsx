@@ -4,7 +4,8 @@ import { Team as DefaultTeamIcon } from "@styled-icons/remix-fill/Team";
 
 export default class TeamSection extends React.Component {
   render() {
-    const rounds = parseInt(this.props.rounds) || "-";
+    const parsedRounds = parseInt(this.props.rounds);
+    const rounds = isNaN(parsedRounds) ? "" : parsedRounds;
 
     const mapPickChip = this.props.mapPick ? (
       <MapPickChip className="team-section-map-pick">MAP PICK</MapPickChip>
