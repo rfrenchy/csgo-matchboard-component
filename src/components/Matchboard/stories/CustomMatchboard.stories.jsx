@@ -1,16 +1,16 @@
 import React from "react";
 import Matchboard from "../index";
 
-import AstralisLogo from "../../assets/teams/astralis.svg";
-import FazeLogo from "../../assets/teams/faze.svg";
-import LiquidLogo from "../../assets/teams/liquid.svg";
-import BIGLogo from "../../assets/teams/BIG.svg";
+import AstralisLogo from "../../../assets/teams/astralis.svg";
+import FazeLogo from "../../../assets/teams/faze.svg";
+import LiquidLogo from "../../../assets/teams/liquid.svg";
+import BIGLogo from "../../../assets/teams/BIG.svg";
 
-import MirageImage from "../../assets/maps/mirage.jpg";
-import NukeImage from "../../assets/maps/nuke.jpg";
-import InfernoImage from "../../assets/maps/inferno.jpg";
-import Dust2 from "../../assets/maps/dust2.jpg";
-import Overpass from "../../assets/maps/overpass.jpg";
+import MirageImage from "../../../assets/maps/mirage.jpg";
+import NukeImage from "../../../assets/maps/nuke.jpg";
+import InfernoImage from "../../../assets/maps/inferno.jpg";
+import Dust2 from "../../../assets/maps/dust2.jpg";
+import Overpass from "../../../assets/maps/overpass.jpg";
 
 import { TeamIds } from "../../../model/TeamEnum";
 

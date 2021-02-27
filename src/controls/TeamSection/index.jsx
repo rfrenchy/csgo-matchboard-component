@@ -27,7 +27,7 @@ export default class TeamSection extends React.Component {
     return this.props.imageSrc ? (
       <TeamImage src={this.props.imageSrc} />
     ) : (
-      <BsPeopleFill style={{ height: "65px", width: "35px" }} /> // change to use this https://styled-icons.js.org/
+      <DefaultTeamImage /> // change to use this https://styled-icons.js.org/
     );
   }
 }
@@ -49,6 +49,17 @@ const TeamStyling = styled.div`
   display: grid;
   justify-items: center;
   align-items: center;
+
+  @media only screen and (max-width: 320px) {
+    width: 30px;
+  }
+`;
+
+const DefaultTeamImage = styled.div`
+  ${BsPeopleFill} {
+    height: 65px;
+    width: 35px;
+  }
 `;
 
 const TeamImage = styled.img`
@@ -76,4 +87,9 @@ const MapPickChip = styled.span`
   color: #eee;
   text-overflow: clip;
   min-width: 46px;
+
+  @media only screen and (max-width: 320px) {
+    min-width: 30px;
+    font-size: 0.3em;
+  }
 `;

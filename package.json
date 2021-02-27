@@ -23,6 +23,9 @@
   "repository": {
     "url": "git@github.com:rfrenchy/csgo-matchboard-component.git"
   },
+  "storybook": {
+    "url": "http://csgo-matchboard-component-storybook.s3-website.eu-west-2.amazonaws.com/"
+  },
   "peerDependencies": {
     "react": "^16",
     "react-dom": "^16"

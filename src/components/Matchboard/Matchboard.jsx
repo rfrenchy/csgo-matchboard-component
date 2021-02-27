@@ -11,6 +11,11 @@ const MatchBoardContainer = styled.div`
   display: grid;
   grid-gap: 10px;
   border-radius: 3px;
+
+  @media only screen and (max-width: 420px) {
+    min-width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+  }
 `;
 
 export default class MatchBoard extends React.Component {

@@ -85,6 +85,10 @@ const MapContainer = styled.div`
   background: linear-gradient(to top left, #5583ee, #212121);
   align-items: center;
   border-radius: 3px;
+
+  @media only screen and (max-width: 420px) {
+    min-width: 100px;
+  }
 `;
 
 const DefaultContainer = styled(MapContainer)`
